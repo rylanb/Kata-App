@@ -1,3 +1,23 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #000;
+  color: #FFF;
+  //background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#999999)); /* Saf4+, Chrome */
+  //  background-image: -webkit-linear-gradient(top, #FFFFFF, #999999); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  //  background-image:    -moz-linear-gradient(top, #FFFFFF, #999999); /* FF3.6 */
+  //  background-image:     -ms-linear-gradient(top, #FFFFFF, #999999); /* IE10 */
+  //  background-image:      -o-linear-gradient(top, #FFFFFF, #999999); /* Opera 11.10+ */
+  //  background-image:         linear-gradient(top, #FFFFFF, #999999);
+  //  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#999999'); /* IE6–IE9 */
+  min-height: 100%;
+  font-family: Helvetica;
+}
+
+a, a:visited { color: #FFF; text-decoration: none; }
+a:after { content: ' \00BB' ; }
+a:hover { border-bottom: 1px solid #FFF; }
+
+li { padding-bottom: 5px; }
