@@ -16,6 +16,12 @@
 
   <%= yield %>
 
+  <% if params[:action] != "index" %>
+    <div>
+      <a href="#">View <%= params[:action].capitalize %> Kata Code</a>
+    </div>
+  <% end %>
+
   <%= javascript_include_tag "application" %>
 </body>
 </html>
